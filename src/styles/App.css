@@ -9,4 +9,27 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    font-size: 1em;
 }
+
+.App input{
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 1.17em;
+    border: none;
+    margin-bottom:5px;
+}
+.App .keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+.App .keypad .tall{
+    grid-row: span 2;
+}
+
+.App .keypad .wide{
+    grid-column: span 2;
+}
+
